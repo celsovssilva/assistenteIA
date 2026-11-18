@@ -24,7 +24,7 @@ public class OpenAiChatModelIT {
                 .build();
 
         var options = OpenAiChatOptions.builder()
-                .model("gemini-3.6-flash")
+                .model("models/gemini-3.6-flash")
                 .temperature(0.8)
                 .responseFormat(ResponseFormat.builder().type(ResponseFormat.Type.TEXT)
                         .build())
